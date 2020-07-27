@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/static/js/jquery-3.5.1.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/vue.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <title>{{ title }}</title>
+  </head>
+  <body class="container">
+  <nav class="navbar navbar-gray" id="bs-navbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://github.com/yddgit/hello-websocket.git">Source Code</a>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="/signout">Sign Out</a>
+        </li>
+    </ul>
+  </nav>
+  {% block main %} {% endblock %}
+</body>
+</html>

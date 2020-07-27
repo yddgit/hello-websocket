@@ -1,0 +1,30 @@
+{
+    "name": "mvc-koa",
+    "version": "1.0.0",
+    "description": "MVC with koa",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "mvc"
+    ],
+    "author": "koa2",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yddgit/hello-koa.git"
+    },
+    "dependencies": {
+        "ws": "7.3.1",
+        "url": "0.11.0",
+        "cookies": "0.8.0",
+        "koa": "2.13.0",
+        "koa-router": "9.1.0",
+        "koa-bodyparser": "4.3.0",
+        "nunjucks": "3.2.1",
+        "mime": "2.4.6",
+        "mz": "2.7.0"
+    }
+}
